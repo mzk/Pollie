@@ -23,7 +23,7 @@
     <tr>
         <td style="font-size: 10px;">
             ({$answer->votesCount}x - {$ratio = $allVotesCount ? round($answer->votesCount/($allVotesCount/100), 2) : 0}%) <br />
-            <img src="/images/pixel-darkblue.png" width="{$ratio * 200/100}" height="10" border="0" />
+            <img src="{$basePath}/images/pixel-darkblue.png" width="{$ratio * 200/100}" height="10" border="0" />
         </td>
     </tr>
     {/foreach}
