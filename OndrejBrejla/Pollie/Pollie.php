@@ -2,8 +2,10 @@
 
 namespace OndrejBrejla\Pollie;
 
+use Nette\Application\UI\BadSignalException;
 use Nette\Environment;
 use Nette\Application\UI\Control;
+use Nette\InvalidStateException;
 
 /**
  * Pollie - plugin for Nette Framework for voting.
